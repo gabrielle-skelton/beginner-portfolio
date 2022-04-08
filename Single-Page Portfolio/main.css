@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  padding: 1%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  padding: 0.5%;
+  margin-top: 2%;
+  float: right;
+}
+
+/* --------------------------------------------------------- */
+
+.bold {
+  font-weight: bold;
+}
+
+.section {
+  padding: 10%;
+  width: 100vw;
+  border-bottom: 3px solid black;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.clear-float {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 3%;
+}
+
+.card-heading {
+  background-color: black;
+  color: white;
+  padding: 1%;
+  padding-left: 3%;
+}
+
+.black-background {
+  background-color: black;
+  color: white;
+}
+
+/* --------------------------------------------------------- */
+
+#header-left, #header-right {
+  width: 50%;
+}
+
+#header-left p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#header-left .icon-bar a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* --------------------------------------------------------- */
+
+#resume .float-left {
+  width: 55%;
+}
+
+#resume .float-right {
+  width: 40%;
+}
+
+#resume .info-container {
+  padding: 5%;
+}
+
+#resume .card ul li {
+  margin-bottom: 1.5%;
+}
+
+#resume .card ul li:last-of-type {
+  margin-bottom: 0;
+}
+
+#resume .card h3 {
+  width: 100%;
+}
+
+#resume .card h3 .float-left {
+  width: 60%;
+}
+
+#resume .card h3 .float-right {
+  width: 40%;
+  font-size: 16px;
+  text-align: right;
+  font-weight: normal;
+}
+
+#resume .card #skills ul {
+  columns: 2;
+}
+
+#resume .card #experience h3 {
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+#resume .card #experience h3:first-of-type {
+  margin-top: 0;
+}
+
+/* --------------------------------------------------------- */
+
+#my-projects .card {
+  width: 33.33%;
+  margin-right: 2%;
+}
+
+#my-projects .card:last-of-type {
+  margin-right: 0;
+}
+
+#my-projects .card img {
+  width: 70%;
+  margin-left: 15%;
+}
+
+/* --------------------------------------------------------- */
+
+#contact-me form {
+  width: 60%;
+  margin-top: 3%;
+}
+
+#contact-me form textarea, #contact-me form input {
+  width: 90%;
+  padding: 1%;
+  margin-top: 2%;
+}
+
+#contact-me form .form-group {
+  justify-content: flex-start;
+}
+
+#contact-me form label {
+  margin-top: 3%;
+  width: 10%;
+}
+
+#contact-me form input[type = "submit"] {
+  padding: 1.5%;
+  margin-top: 3%;
+}
+
+/* --------------------------------------------------------- */
+
+footer {
+  text-align: center;
+  padding: 2%;
+}
+
+footer a {
+  color: white;
+}
